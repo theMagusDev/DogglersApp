@@ -1,0 +1,175 @@
+09-14 18:16:00.052  9935  9964 I TestRunner: started: recycler_view_item_count(com.example.dogglers.VerticalListTests)
+09-14 18:16:00.072  9935  9964 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+09-14 18:16:00.081   903  9913 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=1056ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 14 Sep 2022 18:16:00 GMT], X-Android-Received-Millis=[1663179360080], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1663179359624]}
+09-14 18:16:00.094  9935  9964 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10156; state: ENABLED
+09-14 18:16:00.142   809  1075 D SplashScreenView: Build android.window.SplashScreenView{737e79c V.E...... ......ID 0,0-0,0}
+09-14 18:16:00.142   809  1075 D SplashScreenView: Icon: view: null drawable: null size: 0
+09-14 18:16:00.142   809  1075 D SplashScreenView: Branding: view: android.view.View{a0755a5 G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+09-14 18:16:00.157   903  9912 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=2170ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 14 Sep 2022 18:16:00 GMT], X-Android-Received-Millis=[1663179360153], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1663179359824]}
+09-14 18:16:00.160   903  9911 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=2264ms
+09-14 18:16:00.179   903  1845 D NetworkMonitor/101: Forcing reevaluation for UID 10103. Dns signal count: 0
+09-14 18:16:00.181   348  6516 D goldfish-address-space: claimShared: Ask to claim region [0x3f5cfe000 0x3f66a2000]
+09-14 18:16:00.202   348  6516 D goldfish-address-space: claimShared: Ask to claim region [0x3f66a2000 0x3f7046000]
+09-14 18:16:00.210   348  6516 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+09-14 18:16:00.223  1209  1673 D EGL_emulation: app_time_stats: avg=3509.50ms min=3509.50ms max=3509.50ms count=1
+09-14 18:16:00.228  9935  9968 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+09-14 18:16:00.232   334  9973 D resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+09-14 18:16:00.232   334  9973 I resolv  : resolv_populate_res_for_net: netid=101
+09-14 18:16:00.233   334  9973 D resolv  : res_nsend
+09-14 18:16:00.233  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: PRE_ON_CREATE
+09-14 18:16:00.233   334  9973 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.233   334  9973 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e34a8b390
+09-14 18:16:00.234  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.235  9935  9968 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+09-14 18:16:00.243   334  9974 D resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+09-14 18:16:00.243   334  9974 I resolv  : resolv_populate_res_for_net: netid=101
+09-14 18:16:00.244   334  9974 D resolv  : res_nsend
+09-14 18:16:00.244   334  9974 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.244   334  9974 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e24a8f500
+09-14 18:16:00.267   809  1080 D EGL_emulation: app_time_stats: avg=12941.36ms min=12941.36ms max=12941.36ms count=1
+09-14 18:16:00.280  9935  9968 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+09-14 18:16:00.282  2351  2351 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=145, right=0, bottom=132}
+09-14 18:16:00.284   903  9971 D NetworkMonitor/101: PROBE_DNS www.google.com 83ms OK 2a00:1450:4026:805::2004,216.58.209.164
+09-14 18:16:00.289   334  9975 D resolv  : GetAddrInfoHandler::run: {101 983141 101 983141 1073 1}
+09-14 18:16:00.290   334  9975 D resolv  : resolv_getaddrinfo: explore_fqdn(): ai_family=0 ai_socktype=1 ai_protocol=6
+09-14 18:16:00.291   334  9977 D resolv  : doQuery: (1, 1)
+09-14 18:16:00.291   334  9977 D resolv  : res_nmkquery: (QUERY, IN, A)
+09-14 18:16:00.291   334  9977 D resolv  : res_nsend
+09-14 18:16:00.291   334  9977 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.291   334  9977 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e24a8f500
+09-14 18:16:00.292   334  9977 D resolv  : doQuery: rcode=0, ancount=1
+09-14 18:16:00.293   334  9976 D resolv  : doQuery: (1, 28)
+09-14 18:16:00.294   334  9976 D resolv  : res_nmkquery: (QUERY, IN, AAAA)
+09-14 18:16:00.295   334  9976 D resolv  : res_nsend
+09-14 18:16:00.296   334  9976 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.296   334  9976 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e34a8b390
+09-14 18:16:00.297   334  9976 D resolv  : doQuery: rcode=0, ancount=1
+09-14 18:16:00.308  2351  2351 I A       : onApplyWindowInsets: Adjusting for display cutouts. Safe insets: left=0, top=136, right=0, bottom=0
+09-14 18:16:00.310  2351  2351 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=145, right=0, bottom=132}
+09-14 18:16:00.321   334  9978 D resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+09-14 18:16:00.323   334  9979 D resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+09-14 18:16:00.324   334  9979 I resolv  : resolv_populate_res_for_net: netid=101
+09-14 18:16:00.324   334  9979 D resolv  : res_nsend
+09-14 18:16:00.324   334  9979 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.325   334  9979 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e44a91010
+09-14 18:16:00.326  9935  9944 I xample.doggler: Background young concurrent copying GC freed 6963(713KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 2178KB/26MB, paused 7.387ms,453us total 65.948ms
+09-14 18:16:00.328   334  9978 I resolv  : resolv_populate_res_for_net: netid=101
+09-14 18:16:00.328   334  9978 D resolv  : res_nsend
+09-14 18:16:00.328  2611  2611 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+09-14 18:16:00.329   334  9978 I resolv  : resolv_cache_lookup: lookup
+09-14 18:16:00.329  2611  2611 E HwDetectorWithState: a: 3
+09-14 18:16:00.330   334  9978 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x728e44a93690
+09-14 18:16:00.350  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: CREATED
+09-14 18:16:00.351  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.357  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: STARTED
+09-14 18:16:00.359  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.379  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: RESUMED
+09-14 18:16:00.380  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.386   903  9972 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 160ms OK 2a00:1450:4026:804::2003,216.58.209.195
+09-14 18:16:00.399  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: PAUSED
+09-14 18:16:00.400  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.463   903   914 I rkstack.proces: Background concurrent copying GC freed 183258(8760KB) AllocSpace objects, 228(13MB) LOS objects, 49% free, 3924KB/7849KB, paused 1.028ms,113us total 123.232ms
+09-14 18:16:00.463   903   914 W rkstack.proces: Reducing the number of considered missed Gc histogram windows from 113 to 100
+09-14 18:16:00.556  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: PRE_ON_CREATE
+09-14 18:16:00.559  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+09-14 18:16:00.816  9935  9935 W xample.doggler: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+09-14 18:16:00.818  9935  9935 W xample.doggler: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+09-14 18:16:00.866  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: CREATED
+09-14 18:16:00.866  9935  9935 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@b751556
+09-14 18:16:00.871  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: STARTED
+09-14 18:16:00.872  9935  9935 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@b751556
+09-14 18:16:00.874  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: RESUMED
+09-14 18:16:00.874  9935  9935 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@b751556
+09-14 18:16:00.923  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: STOPPED
+09-14 18:16:00.924  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:00.969  9935  9964 D EventInjectionStrategy: Creating injection strategy with input manager.
+09-14 18:16:00.971  9935  9964 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+09-14 18:16:00.971  9935  9964 W xample.doggler: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+09-14 18:16:00.971  9935  9964 W xample.doggler: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+09-14 18:16:00.975  1280  2659 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+09-14 18:16:00.975  9935  9966 D HostConnection: createUnique: call
+09-14 18:16:00.976  1280  2659 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+09-14 18:16:00.976  9935  9966 D HostConnection: HostConnection::get() New Host Connection established 0x745b39aa29d0, tid 9966
+09-14 18:16:00.980  1280  2659 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+09-14 18:16:00.986  9935  9966 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+09-14 18:16:00.993   193   193 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+09-14 18:16:00.995  9935  9966 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-14 18:16:00.996  9935  9966 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-14 18:16:01.001  1280  2659 I FontLog : Pulling font file for id = 29, cache size = 6 [CONTEXT service_id=132 ]
+09-14 18:16:01.003  9935  9966 D EGL_emulation: eglCreateContext: 0x745b39aa05d0: maj 2 min 0 rcv 2
+09-14 18:16:01.021  1280  2659 I FontLog : Pulling font file for id = 29, cache size = 6 [CONTEXT service_id=132 ]
+09-14 18:16:01.029  9935  9966 D EGL_emulation: eglMakeCurrent: 0x745b39aa05d0: ver 2 0 (tinfo 0x745d4ff21080) (first time)
+09-14 18:16:01.042   371   501 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+09-14 18:16:01.046   193   193 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+09-14 18:16:01.046  9935  9966 I Gralloc4: mapper 4.x is not supported
+09-14 18:16:01.066  9935  9966 D HostConnection: createUnique: call
+09-14 18:16:01.067  9935  9966 D HostConnection: HostConnection::get() New Host Connection established 0x745b39aa4e90, tid 9966
+09-14 18:16:01.068  9935  9966 D goldfish-address-space: allocate: Ask for block of size 0x100
+09-14 18:16:01.069  9935  9966 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3efffe000 size 0x2000
+09-14 18:16:01.074   193   193 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+09-14 18:16:01.075  9935  9966 W Gralloc4: allocator 4.x is not supported
+09-14 18:16:01.079   348  6516 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+09-14 18:16:01.090  9935  9966 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+09-14 18:16:01.094   348  6516 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+09-14 18:16:01.097   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f1cec000 0x3f2690000]
+09-14 18:16:01.467   597   624 I ActivityTaskManager: Displayed com.example.dogglers/.VerticalListActivity: +1s364ms
+09-14 18:16:01.482   597   611 W InputManager-JNI: Input channel object 'a7f40cc Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+09-14 18:16:01.524  9935  9935 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+09-14 18:16:01.551  1475  1475 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+09-14 18:16:01.554  1475  1475 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+09-14 18:16:01.556  1475  1475 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+09-14 18:16:01.613   334   334 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.19ms>
+09-14 18:16:01.613   334   334 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.07ms>
+09-14 18:16:01.613  9935  9935 W xample.doggler: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+09-14 18:16:01.613  9935  9935 W xample.doggler: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+09-14 18:16:01.614  9935  9935 W xample.doggler: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+09-14 18:16:01.614   334   334 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.14ms>
+09-14 18:16:01.615   334   334 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.12ms>
+09-14 18:16:01.628  9935  9935 W xample.doggler: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+09-14 18:16:01.629  9935  9935 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+09-14 18:16:01.629  9935  9935 W xample.doggler: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+09-14 18:16:01.648  9935  9935 I ViewInteraction: Checking 'com.example.dogglers.BaseTest$DrawableMatcher$RecyclerViewAssertion@d125bac' assertion on view view.getId() is <2131231206/com.example.dogglers:id/vertical_recycler_view>
+09-14 18:16:01.669  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: PAUSED
+09-14 18:16:01.670  9935  9935 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@b751556
+09-14 18:16:01.687  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: PRE_ON_CREATE
+09-14 18:16:01.688  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:01.703  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: CREATED
+09-14 18:16:01.705  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:01.710  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: STARTED
+09-14 18:16:01.711  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:01.715  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: RESUMED
+09-14 18:16:01.716  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:01.766   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f2690000 0x3f3034000]
+09-14 18:16:01.772   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f5cfe000 0x3f66a2000]
+09-14 18:16:01.779   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f66a2000 0x3f7046000]
+09-14 18:16:01.812   597   624 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +152ms
+09-14 18:16:01.845  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: PAUSED
+09-14 18:16:01.846  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:01.880  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: STOPPED
+09-14 18:16:01.881  9935  9935 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@b751556
+09-14 18:16:01.883  9935  9935 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@b751556 in: DESTROYED
+09-14 18:16:01.883  9935  9935 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+09-14 18:16:01.891   597   611 W InputManager-JNI: Input channel object 'd225818 com.example.dogglers/com.example.dogglers.VerticalListActivity (client)' was disposed without first being removed with the input manager!
+09-14 18:16:01.899  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94 in: DESTROYED
+09-14 18:16:01.899  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@285dc94
+09-14 18:16:01.913  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5 in: PRE_ON_CREATE
+09-14 18:16:01.913  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5
+09-14 18:16:01.926  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5 in: CREATED
+09-14 18:16:01.927  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5
+09-14 18:16:01.932  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5 in: STARTED
+09-14 18:16:01.933  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5
+09-14 18:16:01.936  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5 in: RESUMED
+09-14 18:16:01.936  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5
+09-14 18:16:01.964   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+09-14 18:16:01.971   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+09-14 18:16:01.975   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f1cec000 0x3f2690000]
+09-14 18:16:01.997   597   624 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +178ms
+09-14 18:16:02.011  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: STOPPED
+09-14 18:16:02.012  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:02.039   348   446 D goldfish-address-space: claimShared: Ask to claim region [0x3f5cfe000 0x3f632a000]
+09-14 18:16:02.083  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6 in: DESTROYED
+09-14 18:16:02.084  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@1f1bad6
+09-14 18:16:02.087   597   971 W InputManager-JNI: Input channel object '57787db com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+09-14 18:16:02.097  9935  9935 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5 in: PAUSED
+09-14 18:16:02.098  9935  9935 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@24290e5
+09-14 18:16:02.116  9935  9964 I TestRunner: finished: recycler_view_item_count(com.example.dogglers.VerticalListTests)
