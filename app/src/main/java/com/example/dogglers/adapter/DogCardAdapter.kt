@@ -16,12 +16,20 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.dogglers.DetailActivity
+import com.example.dogglers.DetailActivity.Companion.DOG_AGE
+import com.example.dogglers.DetailActivity.Companion.DOG_HOBBIES
+import com.example.dogglers.DetailActivity.Companion.DOG_IMAGE
+import com.example.dogglers.DetailActivity.Companion.DOG_NAME
+import com.example.dogglers.DetailActivity.Companion.DOG_SEX
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout.GRID
 import com.example.dogglers.data.DataSource
@@ -47,6 +55,7 @@ class DogCardAdapter(
         val dogName: TextView = view!!.findViewById(R.id.dog_name)
         val dogAge: TextView = view!!.findViewById(R.id.dog_age)
         val dogHobbies: TextView = view!!.findViewById(R.id.dog_hobbies)
+        val showDetailsButton: Button = view!!.findViewById(R.id.details_button)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
@@ -90,5 +99,21 @@ class DogCardAdapter(
 
         // Passing an argument to the string resource looks like:
         // resources?.getString(R.string.dog_hobbies, dog.hobbies)
+
+        // Declare context var
+        val context = holder.itemView.context
+
+        // Setting up OnClickListener
+        holder.showDetailsButton.setOnClickListener {
+            val intent = Intent(context, DetailActivity::class.java)
+            intent
+                .putExtra(DOG_IMAGE, item.imageResourceId)
+                .putExtra(DOG_NAME, item.name)
+                .putExtra(DOG_AGE, item.age)
+                .putExtra(DOG_HOBBIES, item.hobbies)
+                .putExtra(DOG_SEX, item.sex)
+            context.startActivity(intent)
+        }
     }
+
 }

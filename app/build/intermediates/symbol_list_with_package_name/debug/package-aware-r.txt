@@ -2680,6 +2680,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id details_button
 id dialog_button
 id dimensions
 id direct
@@ -2689,6 +2690,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dog_age
+id dog_description
 id dog_hobbies
 id dog_image
 id dog_name
@@ -3120,6 +3122,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_detail
 layout activity_grid_list
 layout activity_horizontal_list
 layout activity_main
@@ -3268,6 +3271,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string dog_age
+string dog_description
 string dog_hobbies
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3356,6 +3360,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string show_details
 string status_bar_notification_info_overflow
 string vertical
 style AlertDialog_AppCompat

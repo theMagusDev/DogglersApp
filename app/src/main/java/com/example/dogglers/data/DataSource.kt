@@ -28,37 +28,43 @@ object DataSource {
             R.drawable.tzeitel,
             "Tzeitel",
             "7",
-            "sunbathing"
+            "sunbathing",
+            "male"
         ),
         Dog(
             R.drawable.leroy,
             "Leroy",
             "4",
-            "sleeping in dangerous places"
+            "sleeping in dangerous places",
+            "male"
         ),
         Dog(
             R.drawable.frankie,
             "Frankie",
             "2",
-            "stealing socks"
+            "stealing socks",
+            "male"
         ),
         Dog(
             R.drawable.nox,
             "Nox",
             "8",
-            "meeting new animals"
+            "meeting new animals",
+            "male"
         ),
         Dog(
             R.drawable.faye,
             "Faye",
             "8",
-            "Digging in the garden"
+            "Digging in the garden",
+            "female"
         ),
         Dog(
             R.drawable.bella,
             "Bella",
             "14",
-            "Chasing sea foam"
+            "Chasing sea foam",
+            "female"
         )
     )
 }

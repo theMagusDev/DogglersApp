@@ -42,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="194dp"
             android:scaleType="centerCrop"
+            android:contentDescription="@string/dog_s_image"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:src="@drawable/tzeitel"/>
@@ -67,11 +68,10 @@
             android:layout_height="wrap_content"
             android:textAppearance="?attr/textAppearanceBody1"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="14dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/dog_name"
-            app:layout_constraintBottom_toBottomOf="parent"
             tools:text="@string/dog_age"/>
 
         <TextView
@@ -83,10 +83,21 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/dog_age"
-            app:layout_constraintBottom_toBottomOf="@id/dog_age"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dog_age"
             tools:text="@string/dog_hobbies"/>
+
+        <Button
+            android:id="@+id/details_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_details"
+            android:layout_marginEnd="5dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:layout_constraintTop_toTopOf="@id/dog_hobbies"
+            app:layout_constraintBottom_toBottomOf="@id/dog_hobbies"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

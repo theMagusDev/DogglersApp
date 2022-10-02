@@ -36,6 +36,10 @@
         "source": "com.example.dogglers.app-main-31:/layout/activity_horizontal_list.xml"
     },
     {
+        "merged": "com.example.dogglers.app-merged_res-29:/layout_activity_detail.xml.flat",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_detail.xml"
+    },
+    {
         "merged": "com.example.dogglers.app-merged_res-29:/layout_grid_list_item.xml.flat",
         "source": "com.example.dogglers.app-main-31:/layout/grid_list_item.xml"
     },

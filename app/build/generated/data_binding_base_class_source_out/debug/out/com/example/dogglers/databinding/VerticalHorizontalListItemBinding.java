@@ -4,6 +4,7 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,6 +22,9 @@ public final class VerticalHorizontalListItemBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
+  public final Button detailsButton;
+
+  @NonNull
   public final TextView dogAge;
 
   @NonNull
@@ -33,9 +37,10 @@ public final class VerticalHorizontalListItemBinding implements ViewBinding {
   public final TextView dogName;
 
   private VerticalHorizontalListItemBinding(@NonNull MaterialCardView rootView,
-      @NonNull TextView dogAge, @NonNull TextView dogHobbies, @NonNull ImageView dogImage,
-      @NonNull TextView dogName) {
+      @NonNull Button detailsButton, @NonNull TextView dogAge, @NonNull TextView dogHobbies,
+      @NonNull ImageView dogImage, @NonNull TextView dogName) {
     this.rootView = rootView;
+    this.detailsButton = detailsButton;
     this.dogAge = dogAge;
     this.dogHobbies = dogHobbies;
     this.dogImage = dogImage;
@@ -69,6 +74,12 @@ public final class VerticalHorizontalListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.details_button;
+      Button detailsButton = ViewBindings.findChildViewById(rootView, id);
+      if (detailsButton == null) {
+        break missingId;
+      }
+
       id = R.id.dog_age;
       TextView dogAge = ViewBindings.findChildViewById(rootView, id);
       if (dogAge == null) {
@@ -93,8 +104,8 @@ public final class VerticalHorizontalListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VerticalHorizontalListItemBinding((MaterialCardView) rootView, dogAge, dogHobbies,
-          dogImage, dogName);
+      return new VerticalHorizontalListItemBinding((MaterialCardView) rootView, detailsButton,
+          dogAge, dogHobbies, dogImage, dogName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

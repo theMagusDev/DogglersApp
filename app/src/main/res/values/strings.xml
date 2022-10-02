@@ -20,4 +20,7 @@
     <string name="vertical">Vertical</string>
     <string name="horizontal">Horizontal</string>
     <string name="grid">Grid</string>
+    <string name="show_details">Show details</string>
+    <string name="dog_description">%1$s is %2$s. %3$s likes %4$s.</string>
+    <string name="dog_s_image">Dog\'s image</string>
 </resources>
