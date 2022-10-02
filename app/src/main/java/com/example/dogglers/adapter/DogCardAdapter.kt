@@ -114,6 +114,8 @@ class DogCardAdapter(
                 dogHobbies = item.hobbies,
                 dogSex = item.sex
             )
+            Log.d("DogCardAdapter", "${item.imageResourceId}, ${item.name}, ${item.age}, ${item.hobbies}, ${item.sex}")
+            Log.d("DogCardAdapter", "$action")
             holder.itemView.findNavController().navigate(action)
         }
     }
