@@ -20,21 +20,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Dogglers" >
-        <activity android:name="com.example.dogglers.VerticalListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity android:name="com.example.dogglers.HorizontalListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity android:name="com.example.dogglers.GridListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
         <activity
             android:name="com.example.dogglers.DetailActivity"
             android:parentActivityName="com.example.dogglers.MainActivity" />

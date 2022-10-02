@@ -17,6 +17,7 @@ package com.example.dogglers.adapter
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,6 +33,8 @@ import com.example.dogglers.DetailActivity.Companion.DOG_NAME
 import com.example.dogglers.DetailActivity.Companion.DOG_SEX
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout.GRID
+import com.example.dogglers.const.Layout.HORIZONTAL
+import com.example.dogglers.const.Layout.VERTICAL
 import com.example.dogglers.data.DataSource
 
 /**
@@ -64,12 +67,13 @@ class DogCardAdapter(
         //  if the layout variable is Layout.GRID the grid list item should be used. Otherwise the
         //  the vertical/horizontal list item should be used.
         val layoutType = when(layout) {
-            GRID -> R.layout.grid_list_item
-            else -> R.layout.vertical_horizontal_list_item
+            VERTICAL -> R.layout.vertical_list_item
+            HORIZONTAL -> R.layout.horizontal_list_item
+            else -> R.layout.grid_list_item
         }
 
         // Inflate the layout
-        val adapterLayout =LayoutInflater.from(parent.context)
+        val adapterLayout = LayoutInflater.from(parent.context)
             .inflate(layoutType, parent, false)
 
         // Null should not be passed into the view holder. This should be updated to reflect
@@ -110,12 +114,18 @@ class DogCardAdapter(
         // Setting up OnClickListener
         holder.showDetailsButton.setOnClickListener {
             val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra(DOG_IMAGE, item.imageResourceId.toInt())
-            intent.putExtra(DOG_NAME, holder.dogName.toString())
-            intent.putExtra(DOG_AGE, holder.dogAge.toString())
-            intent.putExtra(DOG_HOBBIES, holder.dogHobbies.toString())
-            intent.putExtra(DOG_SEX, holder.dogSex.toString())
+            intent.putExtra(DOG_IMAGE, item.imageResourceId)
+            intent.putExtra(DOG_NAME, item.name)
+            intent.putExtra(DOG_AGE, item.age)
+            intent.putExtra(DOG_HOBBIES, item.hobbies)
+            intent.putExtra(DOG_SEX, item.sex)
             context.startActivity(intent)
+            Log.d("DogCardAdapter", "extras: " +
+                    "${item.imageResourceId}, " +
+                    "${item.name}, " +
+                    "${item.age}, " +
+                    "${item.hobbies}, " +
+                    "${item.sex}")
         }
     }
 

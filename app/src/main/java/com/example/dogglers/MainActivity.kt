@@ -17,46 +17,105 @@ package com.example.dogglers
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.dogglers.adapter.DogCardAdapter
+import com.example.dogglers.const.Layout
+import com.example.dogglers.const.Layout.GRID
+import com.example.dogglers.const.Layout.HORIZONTAL
+import com.example.dogglers.const.Layout.VERTICAL
 import com.example.dogglers.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var listIntent: Intent
+    private lateinit var recyclerView: RecyclerView
+    private var layoutType = VERTICAL
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Setup view binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        recyclerView = binding.verticalRecyclerView
 
-        // Launch the VerticalListActivity on verticalBtn click
-        binding.verticalBtn.setOnClickListener { launchVertical() }
-
-        // Launch the HorizontalListActivity on horizontalBtn click
-        binding.horizontalBtn.setOnClickListener { launchHorizontal() }
-
-        // Launch the GridListActivity on gridBtn click
-        binding.gridBtn.setOnClickListener { launchGrid() }
+        setUpAdapter()
     }
 
-    private fun launchVertical() {
-        listIntent = Intent(this, VerticalListActivity::class.java)
-        startActivity(listIntent)
+    fun setUpAdapter() {
+        recyclerView.adapter = when(layoutType){
+            VERTICAL -> {
+                recyclerView.layoutManager = LinearLayoutManager(this, 1, false)
+                DogCardAdapter(
+                    applicationContext,
+                    Layout.VERTICAL
+                )
+            }
+            HORIZONTAL -> {
+                recyclerView.layoutManager = LinearLayoutManager(this, 0, false)
+                DogCardAdapter(
+                    applicationContext,
+                    Layout.HORIZONTAL
+                )
+            }
+            else -> {
+                recyclerView.layoutManager = GridLayoutManager(this, 2, 1, false)
+                DogCardAdapter(
+                    applicationContext,
+                    Layout.GRID
+                )
+            }
+        }
     }
 
-    private fun launchHorizontal() {
-        listIntent = Intent(this, HorizontalListActivity::class.java)
-        startActivity(listIntent)
+    private fun setIcon(menuItem: MenuItem?) {
+        if (menuItem == null)
+            return
+        menuItem.icon = when(layoutType) {
+            VERTICAL -> ContextCompat.getDrawable(this, R.drawable.ic_vertical_layout)
+            HORIZONTAL -> ContextCompat.getDrawable(this, R.drawable.ic_horizontal_layout)
+            else -> ContextCompat.getDrawable(this, R.drawable.ic_grid_layout)
+        }
     }
 
-    private fun launchGrid() {
-        listIntent = Intent(this, GridListActivity::class.java)
-        startActivity(listIntent)
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.layout_manu, menu)
+
+        val layoutButton = menu?.findItem(R.id.action_switch_layout)
+        // Calls code to set the icon based on the LinearLayoutManager of the RecyclerView
+        setIcon(layoutButton)
+
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_switch_layout -> {
+                layoutType = when (layoutType) {
+                    VERTICAL -> HORIZONTAL
+                    HORIZONTAL -> GRID
+                    else -> VERTICAL
+                }
+                setUpAdapter()
+
+                return true
+            }
+            //  Otherwise, do nothing and use the core event handling
+
+            // when clauses require that all possible paths be accounted for explicitly,
+            //  for instance both the true and false cases if the value is a Boolean,
+            //  or an else to catch all unhandled cases.
+
+            else -> return super.onOptionsItemSelected(item)
+        }
     }
 }

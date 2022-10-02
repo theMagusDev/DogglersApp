@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Admin\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-27:\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\themes.xml",
@@ -14,12 +14,12 @@
                         "endOffsets": "817"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "12",
                         "startColumns": "4",
-                        "startOffsets": "786",
-                        "endLines": "22",
+                        "startOffsets": "902",
+                        "endLines": "24",
                         "endColumns": "12",
-                        "endOffsets": "1380"
+                        "endOffsets": "1496"
                     }
                 },
                 {
@@ -32,11 +32,11 @@
                         "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,47",
+                        "startLines": "5,6,7,8,9,10,11,49",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "154,224,308,392,488,590,692,4039",
+                        "startOffsets": "270,340,424,508,604,706,808,4155",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "219,303,387,483,585,687,781,4123"
+                        "endOffsets": "335,419,503,599,701,803,897,4239"
                     }
                 },
                 {
@@ -49,96 +49,28 @@
                         "endOffsets": "125,236,325,426,533,640,739,842,930,1054,1156,1258,1374,1476,1590,1718,1834,1956,2092,2212,2346,2466,2578,2704,2821,2945,3075,3197,3335,3469,3585,3705"
                     },
                     "to": {
-                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55",
+                        "startLines": "25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1385,1460,1571,1660,1761,1868,1975,2074,2177,2265,2389,2491,2593,2709,2811,2925,3053,3169,3291,3427,3547,3681,3801,3913,4128,4245,4369,4499,4621,4759,4893,5009",
+                        "startOffsets": "1501,1576,1687,1776,1877,1984,2091,2190,2293,2381,2505,2607,2709,2825,2927,3041,3169,3285,3407,3543,3663,3797,3917,4029,4244,4361,4485,4615,4737,4875,5009,5125",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1455,1566,1655,1756,1863,1970,2069,2172,2260,2384,2486,2588,2704,2806,2920,3048,3164,3286,3422,3542,3676,3796,3908,4034,4240,4364,4494,4616,4754,4888,5004,5124"
+                        "endOffsets": "1571,1682,1771,1872,1979,2086,2185,2288,2376,2500,2602,2704,2820,2922,3036,3164,3280,3402,3538,3658,3792,3912,4024,4150,4356,4480,4610,4732,4870,5004,5120,5240"
                     }
                 },
                 {
                     "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "53",
-                        "endOffsets": "106"
+                        "startLines": "4,3,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "166,112,57",
+                        "endColumns": "62,52,53",
+                        "endOffsets": "224,160,106"
                     },
                     "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endColumns": "53",
-                        "endOffsets": "149"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "839",
-                        "endLines": "23",
-                        "endColumns": "12",
-                        "endOffsets": "1433"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\28c6b090b6933b28ff549e9007a9e804\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,48",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "207,277,361,445,541,643,745,4092",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "272,356,440,536,638,740,834,4176"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\5b4e5491dbc725d2297b09c26435dc03\\transformed\\material-1.6.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1438,1513,1624,1713,1814,1921,2028,2127,2230,2318,2442,2544,2646,2762,2864,2978,3106,3222,3344,3480,3600,3734,3854,3966,4181,4298,4422,4552,4674,4812,4946,5062",
-                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1508,1619,1708,1809,1916,2023,2122,2225,2313,2437,2539,2641,2757,2859,2973,3101,3217,3339,3475,3595,3729,3849,3961,4087,4293,4417,4547,4669,4807,4941,5057,5177"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\strings.xml",
-                    "from": {
-                        "startLines": "3,-1",
-                        "startColumns": "4,-1",
-                        "startOffsets": "112,-1",
-                        "endColumns": "52,-1",
-                        "endOffsets": "160,-1"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,153",
-                        "endColumns": "52,53",
-                        "endOffsets": "148,202"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,163,216",
+                        "endColumns": "62,52,53",
+                        "endOffsets": "158,211,265"
                     }
                 }
             ]

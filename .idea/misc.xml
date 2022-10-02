@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_detail.xml" value="0.35643115942028986" />
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_grid_list.xml" value="0.35643115942028986" />
+        <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_horizontal_list.xml" value="0.35643115942028986" />
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_main.xml" value="0.35643115942028986" />
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_vertical_list.xml" value="0.35643115942028986" />
+        <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/activity_vertical_list_item.xml" value="0.35643115942028986" />
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/grid_list_item.xml" value="0.35643115942028986" />
+        <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/horizontal_list_item.xml" value="0.21" />
         <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/vertical_horizontal_list_item.xml" value="0.35643115942028986" />
+        <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/layout/vertical_list_item.xml" value="0.35643115942028986" />
+        <entry key="..\:/AndroidStudioProjects/DogglersApp/app/src/main/res/menu/layout_manu.xml" value="0.365625" />
         <entry key="..\:/AndroidStudioProjects/android-basics-kotlin-dogglers-app-main/app/src/main/res/layout/activity_grid_list.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/android-basics-kotlin-dogglers-app-main/app/src/main/res/layout/activity_horizontal_list.xml" value="0.22056159420289856" />
         <entry key="..\:/AndroidStudioProjects/android-basics-kotlin-dogglers-app-main/app/src/main/res/layout/activity_vertical_list.xml" value="0.35643115942028986" />

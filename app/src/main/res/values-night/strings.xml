@@ -2,4 +2,5 @@
 <resources>
     <string name="show_details">Show details</string>
     <string name="dog_s_image">Dog\'s image</string>
+    <string name="action_switch_layout">Switch layout</string>
 </resources>

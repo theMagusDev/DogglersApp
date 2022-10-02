@@ -2467,6 +2467,8 @@ drawable design_snackbar_background
 drawable faye
 drawable frankie
 drawable ic_clock_black_24dp
+drawable ic_grid_layout
+drawable ic_horizontal_layout
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2477,6 +2479,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_vertical_layout
 drawable leroy
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2593,6 +2596,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_switch_layout
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2743,8 +2747,6 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
-id grid_btn
-id grid_recycler_view
 id group_divider
 id grouping
 id groups
@@ -2754,9 +2756,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-id horizontal_btn
 id horizontal_only
-id horizontal_recycler_view
 id icon
 id icon_group
 id ifRoom
@@ -3011,7 +3011,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id vertical_btn
 id vertical_only
 id vertical_recycler_view
 id view_offset_helper
@@ -3123,8 +3122,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_detail
-layout activity_grid_list
-layout activity_horizontal_list
 layout activity_main
 layout activity_vertical_list
 layout custom_dialog
@@ -3144,6 +3141,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout grid_list_item
+layout horizontal_list_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3227,9 +3225,10 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout vertical_horizontal_list_item
+layout vertical_list_item
 menu example_menu
 menu example_menu2
+menu layout_manu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3260,6 +3259,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_switch_layout
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior

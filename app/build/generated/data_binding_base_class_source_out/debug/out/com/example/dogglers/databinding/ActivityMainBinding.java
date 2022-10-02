@@ -4,10 +4,10 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
@@ -20,20 +20,12 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button gridBtn;
+  public final RecyclerView verticalRecyclerView;
 
-  @NonNull
-  public final Button horizontalBtn;
-
-  @NonNull
-  public final Button verticalBtn;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button gridBtn,
-      @NonNull Button horizontalBtn, @NonNull Button verticalBtn) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RecyclerView verticalRecyclerView) {
     this.rootView = rootView;
-    this.gridBtn = gridBtn;
-    this.horizontalBtn = horizontalBtn;
-    this.verticalBtn = verticalBtn;
+    this.verticalRecyclerView = verticalRecyclerView;
   }
 
   @Override
@@ -63,26 +55,13 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.grid_btn;
-      Button gridBtn = ViewBindings.findChildViewById(rootView, id);
-      if (gridBtn == null) {
+      id = R.id.vertical_recycler_view;
+      RecyclerView verticalRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (verticalRecyclerView == null) {
         break missingId;
       }
 
-      id = R.id.horizontal_btn;
-      Button horizontalBtn = ViewBindings.findChildViewById(rootView, id);
-      if (horizontalBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.vertical_btn;
-      Button verticalBtn = ViewBindings.findChildViewById(rootView, id);
-      if (verticalBtn == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, gridBtn, horizontalBtn,
-          verticalBtn);
+      return new ActivityMainBinding((ConstraintLayout) rootView, verticalRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

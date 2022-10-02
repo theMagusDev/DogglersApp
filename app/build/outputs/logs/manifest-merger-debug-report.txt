@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4380f3d834a176aec83bd1b8cc879636\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-testing:1.4.1] C:\Users\Admin\.gradle\caches\transforms-3\8dc963981df3a9947c7f560d1a6a6c14\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:17:1-40:12
 MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Admin\.gradle\caches\transforms-3\fdaf93a1e31dc8da31ac4fe7424cbba1\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -60,27 +60,27 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Admin\.gradle\caches\transforms-3\9a28a5a21ff06bfe4b10cce09ebe8f4b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Admin\.gradle\caches\transforms-3\7367767c09abeee042102528b8936ad6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\e0315e924c7e9e33f713741c82edaae2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:4:5-35
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:6:5-40:19
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from [androidx.fragment:fragment-testing:1.4.1] C:\Users\Admin\.gradle\caches\transforms-3\8dc963981df3a9947c7f560d1a6a6c14\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:27:5-38:19
 MERGED from [androidx.fragment:fragment-testing:1.4.1] C:\Users\Admin\.gradle\caches\transforms-3\8dc963981df3a9947c7f560d1a6a6c14\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:27:5-38:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Admin\.gradle\caches\transforms-3\5b4e5491dbc725d2297b09c26435dc03\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
@@ -113,46 +113,28 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Admin\.gradle\cach
 		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:12:9-46
-activity#com.example.dogglers.VerticalListActivity
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:9-17:20
-	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:19-55
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:14:13-16:49
-	android:value
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:17-46
-	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:17-63
-activity#com.example.dogglers.HorizontalListActivity
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:9-22:20
-	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:19-57
-activity#com.example.dogglers.GridListActivity
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:23:9-27:20
-	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:23:19-51
 activity#com.example.dogglers.DetailActivity
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:28:9-30:58
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:9-15:58
 	android:parentActivityName
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:30:13-55
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:13-55
 	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:14:13-43
 activity#com.example.dogglers.MainActivity
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:9-39:20
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml

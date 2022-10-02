@@ -24,4 +24,7 @@
     <string name="dog_description">%1$s is %2$s. %3$s likes %4$s.</string>
     <string name="dog_s_image">Dog\'s image</string>
     <string name="details_about">Details about %1$s</string>
+    <string name="action_switch_layout">Switch layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
