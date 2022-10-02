@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.IntegerRes
 import androidx.fragment.app.Fragment
 import com.example.dogglers.DetailFragment.Companion.DOG_AGE
 import com.example.dogglers.DetailFragment.Companion.DOG_HOBBIES
@@ -15,6 +16,12 @@ import com.example.dogglers.databinding.FragmentDetailBinding
 
 private var _binding: FragmentDetailBinding? = null
 private val binding = _binding!!
+
+private var dogImageResourceId: Int? = null
+private lateinit var dogName: String
+private lateinit var dogAge: String
+private lateinit var dogHobbies: String
+private lateinit var dogSex: String
 
 class DetailFragment : Fragment() {
 
@@ -28,7 +35,14 @@ class DetailFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setHasOptionsMenu(true)
+
+        arguments?.let {
+            dogImageResourceId = it.getInt(DOG_IMAGE)
+            dogName = it.getString(DOG_NAME).toString()
+            dogAge = it.getString(DOG_AGE).toString()
+            dogHobbies = it.getString(DOG_HOBBIES).toString()
+            dogSex = it.getString(DOG_SEX).toString()
+        }
     }
 
     override fun onCreateView(
@@ -43,12 +57,6 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val dogImageResourceId = activity?.intent?.extras?.getInt(DOG_IMAGE)
-        val dogName = activity?.intent?.extras?.getString(DOG_NAME)
-        val dogAge = activity?.intent?.extras?.getString(DOG_AGE)
-        val dogHobbies = activity?.intent?.extras?.getString(DOG_HOBBIES)
-        val dogSex = activity?.intent?.extras?.getString(DOG_SEX)
-
         val heOrShe: String = when(dogSex){
             "male" -> "He"
             else -> "She"
@@ -59,6 +67,7 @@ class DetailFragment : Fragment() {
 
         //title = getString(R.string.details_about, dogName)
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
