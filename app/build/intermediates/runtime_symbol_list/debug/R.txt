@@ -3269,9 +3269,11 @@ int string character_counter_overflowed_content_description 0x7f0f0021
 int string character_counter_pattern 0x7f0f0022
 int string chip_text 0x7f0f0023
 int string clear_text_end_icon_content_description 0x7f0f0024
+int string details_about 0x7f0f0082
 int string dog_age 0x7f0f0025
 int string dog_description 0x7f0f0026
 int string dog_hobbies 0x7f0f0027
+int string dog_s_image 0x7f0f0083
 int string error_icon_content_description 0x7f0f0028
 int string exposed_dropdown_menu_content_description 0x7f0f0029
 int string fab_transformation_scrim_behavior 0x7f0f002a

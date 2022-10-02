@@ -55,6 +55,7 @@ class DogCardAdapter(
         val dogName: TextView = view!!.findViewById(R.id.dog_name)
         val dogAge: TextView = view!!.findViewById(R.id.dog_age)
         val dogHobbies: TextView = view!!.findViewById(R.id.dog_hobbies)
+        var dogSex = "n/a"
         val showDetailsButton: Button = view!!.findViewById(R.id.details_button)
     }
 
@@ -100,18 +101,20 @@ class DogCardAdapter(
         // Passing an argument to the string resource looks like:
         // resources?.getString(R.string.dog_hobbies, dog.hobbies)
 
+        // Set the dog's sex variable
+        holder.dogSex = item.sex
+
         // Declare context var
         val context = holder.itemView.context
 
         // Setting up OnClickListener
         holder.showDetailsButton.setOnClickListener {
             val intent = Intent(context, DetailActivity::class.java)
-            intent
-                .putExtra(DOG_IMAGE, item.imageResourceId)
-                .putExtra(DOG_NAME, item.name)
-                .putExtra(DOG_AGE, item.age)
-                .putExtra(DOG_HOBBIES, item.hobbies)
-                .putExtra(DOG_SEX, item.sex)
+            intent.putExtra(DOG_IMAGE, item.imageResourceId.toInt())
+            intent.putExtra(DOG_NAME, holder.dogName.toString())
+            intent.putExtra(DOG_AGE, holder.dogAge.toString())
+            intent.putExtra(DOG_HOBBIES, holder.dogHobbies.toString())
+            intent.putExtra(DOG_SEX, holder.dogSex.toString())
             context.startActivity(intent)
         }
     }

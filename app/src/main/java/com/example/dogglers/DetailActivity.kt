@@ -1,11 +1,13 @@
 package com.example.dogglers
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.example.dogglers.databinding.ActivityDetailBinding
 
-class DetailActivity : AppCompatActivity() {
+class DetailActivity() : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
+    private val TAG = "DetailActivity"
 
     companion object {
         const val DOG_IMAGE = "dogImage"
@@ -32,7 +34,13 @@ class DetailActivity : AppCompatActivity() {
             "male" -> "He"
             else -> "She"
         }
+        binding.dogName.text = dogName
+        Log.d(TAG, "${dogAge.toString()}, ${dogName.toString()}, $dogHobbies, $heOrShe, $dogImageResourceId")
         binding.dogDescription.text = getString(R.string.dog_description, dogName, dogAge, dogSex, dogHobbies)
-        binding.dogImage.setImageResource(dogImageResourceId!!.toInt())
+        //binding.dogImage.setImageResource(dogImageResourceId!!.toInt())
+        binding.dogImage.setImageResource(R.drawable.bella)
+        Log.d(TAG, "dogDescription and dogImage were set")
+
+        title = getString(R.string.details_about, dogName)
     }
 }

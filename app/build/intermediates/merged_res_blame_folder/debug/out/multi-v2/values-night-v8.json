@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\Admin\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-27:\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\themes.xml",
@@ -71,6 +71,74 @@
                         "startOffsets": "100",
                         "endColumns": "53",
                         "endOffsets": "149"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "839",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1433"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\28c6b090b6933b28ff549e9007a9e804\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,48",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "207,277,361,445,541,643,745,4092",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "272,356,440,536,638,740,834,4176"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\5b4e5491dbc725d2297b09c26435dc03\\transformed\\material-1.6.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1438,1513,1624,1713,1814,1921,2028,2127,2230,2318,2442,2544,2646,2762,2864,2978,3106,3222,3344,3480,3600,3734,3854,3966,4181,4298,4422,4552,4674,4812,4946,5062",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1508,1619,1708,1809,1916,2023,2122,2225,2313,2437,2539,2641,2757,2859,2973,3101,3217,3339,3475,3595,3729,3849,3961,4087,4293,4417,4547,4669,4807,4941,5057,5177"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioProjects\\DogglersApp\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "3,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "112,-1",
+                        "endColumns": "52,-1",
+                        "endOffsets": "160,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,153",
+                        "endColumns": "52,53",
+                        "endOffsets": "148,202"
                     }
                 }
             ]
