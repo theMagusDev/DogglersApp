@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-v21/values-v21.xml",
+            "outputFile": "com.example.dogglers.app-mergeDebugResources-29:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9eb05656e81aabae1a3c27db04052a3c\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",

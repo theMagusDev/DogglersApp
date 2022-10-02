@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dogglers.app-mergeDebugResources-27:/values-hr/values-hr.xml",
+            "outputFile": "com.example.dogglers.app-mergeDebugResources-29:/values-hr/values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\13b44be16133ccdf5bd1003a3cb2bac5\\transformed\\core-1.7.0\\res\\values-hr\\values-hr.xml",

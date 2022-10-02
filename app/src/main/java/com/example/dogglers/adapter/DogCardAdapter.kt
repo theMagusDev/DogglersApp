@@ -25,12 +25,11 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dogglers.DetailActivity
-import com.example.dogglers.DetailActivity.Companion.DOG_AGE
-import com.example.dogglers.DetailActivity.Companion.DOG_HOBBIES
-import com.example.dogglers.DetailActivity.Companion.DOG_IMAGE
-import com.example.dogglers.DetailActivity.Companion.DOG_NAME
-import com.example.dogglers.DetailActivity.Companion.DOG_SEX
+import com.example.dogglers.DetailFragment.Companion.DOG_AGE
+import com.example.dogglers.DetailFragment.Companion.DOG_HOBBIES
+import com.example.dogglers.DetailFragment.Companion.DOG_IMAGE
+import com.example.dogglers.DetailFragment.Companion.DOG_NAME
+import com.example.dogglers.DetailFragment.Companion.DOG_SEX
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout.GRID
 import com.example.dogglers.const.Layout.HORIZONTAL
@@ -112,7 +111,7 @@ class DogCardAdapter(
         val context = holder.itemView.context
 
         // Setting up OnClickListener
-        holder.showDetailsButton.setOnClickListener {
+        /*holder.showDetailsButton.setOnClickListener {
             val intent = Intent(context, DetailActivity::class.java)
             intent.putExtra(DOG_IMAGE, item.imageResourceId)
             intent.putExtra(DOG_NAME, item.name)
@@ -126,7 +125,7 @@ class DogCardAdapter(
                     "${item.age}, " +
                     "${item.hobbies}, " +
                     "${item.sex}")
-        }
+        }*/
     }
 
 }
