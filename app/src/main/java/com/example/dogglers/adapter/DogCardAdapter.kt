@@ -24,12 +24,14 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dogglers.DetailFragment.Companion.DOG_AGE
 import com.example.dogglers.DetailFragment.Companion.DOG_HOBBIES
 import com.example.dogglers.DetailFragment.Companion.DOG_IMAGE
 import com.example.dogglers.DetailFragment.Companion.DOG_NAME
 import com.example.dogglers.DetailFragment.Companion.DOG_SEX
+import com.example.dogglers.DogListFragmentDirections
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout.GRID
 import com.example.dogglers.const.Layout.HORIZONTAL
@@ -97,35 +99,23 @@ class DogCardAdapter(
         // Set the text for the current dog's age
         holder.dogAge.text = resources?.getString(R.string.dog_age, item.age)
 
-        // Set the text for the current dog's hobbies by passing the hobbies to the
-        // R.string.dog_hobbies string constant.
+        // Set the text for dog's hobbies
         holder.dogHobbies.text = resources?.getString(R.string.dog_hobbies, item.hobbies)
-
-        // Passing an argument to the string resource looks like:
-        // resources?.getString(R.string.dog_hobbies, dog.hobbies)
 
         // Set the dog's sex variable
         holder.dogSex = item.sex
 
-        // Declare context var
-        val context = holder.itemView.context
-
         // Setting up OnClickListener
-        /*holder.showDetailsButton.setOnClickListener {
-            val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra(DOG_IMAGE, item.imageResourceId)
-            intent.putExtra(DOG_NAME, item.name)
-            intent.putExtra(DOG_AGE, item.age)
-            intent.putExtra(DOG_HOBBIES, item.hobbies)
-            intent.putExtra(DOG_SEX, item.sex)
-            context.startActivity(intent)
-            Log.d("DogCardAdapter", "extras: " +
-                    "${item.imageResourceId}, " +
-                    "${item.name}, " +
-                    "${item.age}, " +
-                    "${item.hobbies}, " +
-                    "${item.sex}")
-        }*/
+        holder.showDetailsButton.setOnClickListener {
+            val action = DogListFragmentDirections.actionDogListFragmentToDetailFragment(
+                dogImage = item.imageResourceId,
+                dogName = item.name,
+                dogAge = item.age,
+                dogHobbies = item.hobbies,
+                dogSex = item.sex
+            )
+            holder.itemView.findNavController().navigate(action)
+        }
     }
 
 }

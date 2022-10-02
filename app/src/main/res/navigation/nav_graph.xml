@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dogListFragment">
+
+    <fragment
+        android:id="@+id/dogListFragment"
+        android:name="com.example.dogglers.DogListFragment"
+        android:label="DogListFragment" >
+        <action
+            android:id="@+id/action_dogListFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.dogglers.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="dog_image"
+            app:argType="integer" />
+        <argument
+            android:name="dog_name"
+            app:argType="string" />
+        <argument
+            android:name="dog_age"
+            app:argType="string" />
+        <argument
+            android:name="dog_hobbies"
+            app:argType="string" />
+        <argument
+            android:name="dog_sex"
+            app:argType="string" />
+    </fragment>
+</navigation>
