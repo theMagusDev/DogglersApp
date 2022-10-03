@@ -3337,7 +3337,6 @@ int string exposed_dropdown_menu_content_description 0x7f10002c
 int string fab_transformation_scrim_behavior 0x7f10002d
 int string fab_transformation_sheet_behavior 0x7f10002e
 int string grid 0x7f10002f
-int string hello_blank_fragment 0x7f100030
 int string hide_bottom_view_on_scroll_behavior 0x7f100031
 int string horizontal 0x7f100032
 int string icon_content_description 0x7f100033

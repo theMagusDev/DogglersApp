@@ -23,7 +23,9 @@ class DetailFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
-    private var dogImageResourceId: Int? = null
+    // private lateinit var dogImageResourceId: Int will give an error,
+    // that's why i use 11111111 here
+    private var dogImageResourceId: Int = 11111111
     private lateinit var dogName: String
     private lateinit var dogAge: String
     private lateinit var dogHobbies: String
@@ -57,11 +59,10 @@ class DetailFragment : Fragment() {
             "male" -> "He"
             else -> "She"
         }
+
         binding.dogName.text = dogName
         binding.dogDescription.text = getString(R.string.dog_description, dogName, dogAge, heOrShe, dogHobbies)
-        //binding.dogImage.setImageResource(dogImageResourceId!!.toInt())
-
-        //title = getString(R.string.details_about, dogName)
+        binding.dogImage.setImageResource(dogImageResourceId!!.toInt())
     }
 
 

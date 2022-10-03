@@ -17,21 +17,21 @@ public data class DetailFragmentArgs(
 ) : NavArgs {
   public fun toBundle(): Bundle {
     val result = Bundle()
-    result.putInt("dog_image", this.dogImage)
-    result.putString("dog_name", this.dogName)
-    result.putString("dog_age", this.dogAge)
-    result.putString("dog_hobbies", this.dogHobbies)
-    result.putString("dog_sex", this.dogSex)
+    result.putInt("dogImage", this.dogImage)
+    result.putString("dogName", this.dogName)
+    result.putString("dogAge", this.dogAge)
+    result.putString("dogHobbies", this.dogHobbies)
+    result.putString("dogSex", this.dogSex)
     return result
   }
 
   public fun toSavedStateHandle(): SavedStateHandle {
     val result = SavedStateHandle()
-    result.set("dog_image", this.dogImage)
-    result.set("dog_name", this.dogName)
-    result.set("dog_age", this.dogAge)
-    result.set("dog_hobbies", this.dogHobbies)
-    result.set("dog_sex", this.dogSex)
+    result.set("dogImage", this.dogImage)
+    result.set("dogName", this.dogName)
+    result.set("dogAge", this.dogAge)
+    result.set("dogHobbies", this.dogHobbies)
+    result.set("dogSex", this.dogSex)
     return result
   }
 
@@ -40,46 +40,46 @@ public data class DetailFragmentArgs(
     public fun fromBundle(bundle: Bundle): DetailFragmentArgs {
       bundle.setClassLoader(DetailFragmentArgs::class.java.classLoader)
       val __dogImage : Int
-      if (bundle.containsKey("dog_image")) {
-        __dogImage = bundle.getInt("dog_image")
+      if (bundle.containsKey("dogImage")) {
+        __dogImage = bundle.getInt("dogImage")
       } else {
-        throw IllegalArgumentException("Required argument \"dog_image\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogImage\" is missing and does not have an android:defaultValue")
       }
       val __dogName : String?
-      if (bundle.containsKey("dog_name")) {
-        __dogName = bundle.getString("dog_name")
+      if (bundle.containsKey("dogName")) {
+        __dogName = bundle.getString("dogName")
         if (__dogName == null) {
-          throw IllegalArgumentException("Argument \"dog_name\" is marked as non-null but was passed a null value.")
+          throw IllegalArgumentException("Argument \"dogName\" is marked as non-null but was passed a null value.")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_name\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogName\" is missing and does not have an android:defaultValue")
       }
       val __dogAge : String?
-      if (bundle.containsKey("dog_age")) {
-        __dogAge = bundle.getString("dog_age")
+      if (bundle.containsKey("dogAge")) {
+        __dogAge = bundle.getString("dogAge")
         if (__dogAge == null) {
-          throw IllegalArgumentException("Argument \"dog_age\" is marked as non-null but was passed a null value.")
+          throw IllegalArgumentException("Argument \"dogAge\" is marked as non-null but was passed a null value.")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_age\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogAge\" is missing and does not have an android:defaultValue")
       }
       val __dogHobbies : String?
-      if (bundle.containsKey("dog_hobbies")) {
-        __dogHobbies = bundle.getString("dog_hobbies")
+      if (bundle.containsKey("dogHobbies")) {
+        __dogHobbies = bundle.getString("dogHobbies")
         if (__dogHobbies == null) {
-          throw IllegalArgumentException("Argument \"dog_hobbies\" is marked as non-null but was passed a null value.")
+          throw IllegalArgumentException("Argument \"dogHobbies\" is marked as non-null but was passed a null value.")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_hobbies\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogHobbies\" is missing and does not have an android:defaultValue")
       }
       val __dogSex : String?
-      if (bundle.containsKey("dog_sex")) {
-        __dogSex = bundle.getString("dog_sex")
+      if (bundle.containsKey("dogSex")) {
+        __dogSex = bundle.getString("dogSex")
         if (__dogSex == null) {
-          throw IllegalArgumentException("Argument \"dog_sex\" is marked as non-null but was passed a null value.")
+          throw IllegalArgumentException("Argument \"dogSex\" is marked as non-null but was passed a null value.")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_sex\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogSex\" is missing and does not have an android:defaultValue")
       }
       return DetailFragmentArgs(__dogImage, __dogName, __dogAge, __dogHobbies, __dogSex)
     }
@@ -87,49 +87,49 @@ public data class DetailFragmentArgs(
     @JvmStatic
     public fun fromSavedStateHandle(savedStateHandle: SavedStateHandle): DetailFragmentArgs {
       val __dogImage : Int?
-      if (savedStateHandle.contains("dog_image")) {
-        __dogImage = savedStateHandle["dog_image"]
+      if (savedStateHandle.contains("dogImage")) {
+        __dogImage = savedStateHandle["dogImage"]
         if (__dogImage == null) {
-          throw IllegalArgumentException("Argument \"dog_image\" of type integer does not support null values")
+          throw IllegalArgumentException("Argument \"dogImage\" of type integer does not support null values")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_image\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogImage\" is missing and does not have an android:defaultValue")
       }
       val __dogName : String?
-      if (savedStateHandle.contains("dog_name")) {
-        __dogName = savedStateHandle["dog_name"]
+      if (savedStateHandle.contains("dogName")) {
+        __dogName = savedStateHandle["dogName"]
         if (__dogName == null) {
-          throw IllegalArgumentException("Argument \"dog_name\" is marked as non-null but was passed a null value")
+          throw IllegalArgumentException("Argument \"dogName\" is marked as non-null but was passed a null value")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_name\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogName\" is missing and does not have an android:defaultValue")
       }
       val __dogAge : String?
-      if (savedStateHandle.contains("dog_age")) {
-        __dogAge = savedStateHandle["dog_age"]
+      if (savedStateHandle.contains("dogAge")) {
+        __dogAge = savedStateHandle["dogAge"]
         if (__dogAge == null) {
-          throw IllegalArgumentException("Argument \"dog_age\" is marked as non-null but was passed a null value")
+          throw IllegalArgumentException("Argument \"dogAge\" is marked as non-null but was passed a null value")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_age\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogAge\" is missing and does not have an android:defaultValue")
       }
       val __dogHobbies : String?
-      if (savedStateHandle.contains("dog_hobbies")) {
-        __dogHobbies = savedStateHandle["dog_hobbies"]
+      if (savedStateHandle.contains("dogHobbies")) {
+        __dogHobbies = savedStateHandle["dogHobbies"]
         if (__dogHobbies == null) {
-          throw IllegalArgumentException("Argument \"dog_hobbies\" is marked as non-null but was passed a null value")
+          throw IllegalArgumentException("Argument \"dogHobbies\" is marked as non-null but was passed a null value")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_hobbies\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogHobbies\" is missing and does not have an android:defaultValue")
       }
       val __dogSex : String?
-      if (savedStateHandle.contains("dog_sex")) {
-        __dogSex = savedStateHandle["dog_sex"]
+      if (savedStateHandle.contains("dogSex")) {
+        __dogSex = savedStateHandle["dogSex"]
         if (__dogSex == null) {
-          throw IllegalArgumentException("Argument \"dog_sex\" is marked as non-null but was passed a null value")
+          throw IllegalArgumentException("Argument \"dogSex\" is marked as non-null but was passed a null value")
         }
       } else {
-        throw IllegalArgumentException("Required argument \"dog_sex\" is missing and does not have an android:defaultValue")
+        throw IllegalArgumentException("Required argument \"dogSex\" is missing and does not have an android:defaultValue")
       }
       return DetailFragmentArgs(__dogImage, __dogName, __dogAge, __dogHobbies, __dogSex)
     }

@@ -16,8 +16,6 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
-import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,11 +24,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dogglers.DetailFragment.Companion.DOG_AGE
-import com.example.dogglers.DetailFragment.Companion.DOG_HOBBIES
-import com.example.dogglers.DetailFragment.Companion.DOG_IMAGE
-import com.example.dogglers.DetailFragment.Companion.DOG_NAME
-import com.example.dogglers.DetailFragment.Companion.DOG_SEX
 import com.example.dogglers.DogListFragmentDirections
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout.GRID
@@ -114,8 +107,6 @@ class DogCardAdapter(
                 dogHobbies = item.hobbies,
                 dogSex = item.sex
             )
-            Log.d("DogCardAdapter", "${item.imageResourceId}, ${item.name}, ${item.age}, ${item.hobbies}, ${item.sex}")
-            Log.d("DogCardAdapter", "$action")
             holder.itemView.findNavController().navigate(action)
         }
     }

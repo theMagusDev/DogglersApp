@@ -18,11 +18,11 @@ public class DogListFragmentDirections private constructor() {
     public override val arguments: Bundle
       get() {
         val result = Bundle()
-        result.putInt("dog_image", this.dogImage)
-        result.putString("dog_name", this.dogName)
-        result.putString("dog_age", this.dogAge)
-        result.putString("dog_hobbies", this.dogHobbies)
-        result.putString("dog_sex", this.dogSex)
+        result.putInt("dogImage", this.dogImage)
+        result.putString("dogName", this.dogName)
+        result.putString("dogAge", this.dogAge)
+        result.putString("dogHobbies", this.dogHobbies)
+        result.putString("dogSex", this.dogSex)
         return result
       }
   }
